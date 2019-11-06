@@ -1,11 +1,10 @@
 {
-    "name": "webpack-babel",
+    "name": "webpack-babel-transpiling-example",
     "version": "1.0.0",
     "description": "A brief and basic example on using Webpack and Babel to transpile modern JavaScript to more browser-friendly ES5 JavaScript.",
-    "main": "index.js",
+    "main": "./dist/index.js",
     "scripts": {
-        "webpack": "webpack",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "webpack": "webpack"
     },
     "keywords": [
         "webpack",
@@ -15,7 +14,16 @@
         "react",
         "es6"
     ],
-    "author": "Reece Russell <me@reecerussell.com>",
+    "homepage": "https://github.com/reecerussell/webpack-babel-transpiling-example#readme",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/reecerussell/webpack-babel-transpiling-example.git"
+    },
+    "author": {
+        "name": "Reece Russell",
+        "email": "me@reecerussell.com",
+        "url": "https://reecerussell.com"
+    },
     "license": "MIT",
     "devDependencies": {
         "@babel/core": "^7.7.0",
